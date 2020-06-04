@@ -1,0 +1,170 @@
+body{
+     background-image:url("dark-pattern.jpg") !important;
+    background-repeat: repeat;
+    background-size: 1250px auto;
+}
+#imgslide{
+      margin: 0px 35% 0px 40%;  
+
+}
+.icon{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px; 
+    height:260px;
+    width:300px; 
+}
+#top{
+    background-image: url("board.jpeg");
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: 1250px 190px;
+    font-family: 'Orbitron', sans-serif;
+}
+#title{
+    margin: 0px 0px 0px 400px;
+    color: rgb(56, 255, 132);
+    font-size: 70px;
+    text-shadow: rgb(0, 0, 0) 0px 18px 5px;
+}
+#slogan{  
+     margin: 0px 0px 0px 800px;
+    color: rgb(56, 255, 132);
+    font-size: 30px;
+    text-shadow: black 0px 14px 2px;
+}
+.slidecolor{
+    color: black;
+    font-weight: 1000;
+    font-size: large;
+    
+}
+.carousel-control-next, .carousel-control-prev{
+    filter: invert(100%);
+}
+.carousel-indicators .active{
+    filter: invert(100%);
+}
+#search{
+    float: right;
+    height: 25px;
+    width: 120px;
+    background-color: rgb(65, 255, 208);
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 500px;
+
+}
+#search:focus{
+    width: 200px;
+    height:25px;
+}
+#search-btn{
+    float: right;
+    height:25px;
+    width:25px;
+    background-image: url("search.png");
+    margin-top: 15px;
+    background-size: 18px 18px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#search-btn:hover{
+    background-color: rgb(48, 252, 184);
+}
+#search-btn:active{
+    height: 30px;
+    width: 30px;
+}
+@media(max-width: 600px){
+    body{
+        background-image:url("dark-pattern.jpg") !important;
+       background-repeat: repeat;
+       background-size: auto 800px;
+       background-position: fixed;
+   }
+   #imgslide{
+       margin: 0% 25% 0% 34.5%; 
+   }
+   #imgslide:hover{
+       box-shadow: 8px 8px 16px 7px  black;
+   }
+   .icon{
+       border: 2px solid black;
+       border-radius: 10px;
+       margin: 0px 5px 0px 5px; 
+       height: 220px;
+       width: 180px;
+   }
+   #top{
+       background-image: url("board.jpeg");
+       background-repeat: no-repeat;
+       height: 140px;
+       background-size: 500px 130px;
+       font-family: 'Orbitron', sans-serif;
+   }
+   #title{
+       outline: black;
+       margin: 0px 0px 0px 100px;
+       color: rgb(56, 255, 132);
+       font-size: 40px;
+       text-shadow: black 0px 15px 4px;
+   }
+   #slogan{
+    outline: black;
+    margin: 0px 0px 0px 250px;
+    color: rgb(56, 255, 132);
+    font-size: 20px;
+    text-shadow: black 2px 10px 2px;
+   }
+   .slidecolor{
+       color: black;
+       font-weight: 900;
+   }
+   .carousel-control-next, .carousel-control-prev{
+       filter: invert(100%);
+   }
+   .carousel-indicators .active{
+       filter: invert(100%);
+   }
+   #search{
+    float: right;
+    height: 20px;
+    width: 90px;
+    background-color: aqua;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-right: 170px;
+    padding: 2px;
+
+}
+#search:focus{
+    width: 150px;
+    height:18px;
+}
+#search-btn{
+    float: right;
+    height:19px;
+    width:19px;
+    background-image: url("search.png");
+    margin-top: 20px;
+    background-size: 11px 11px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#search-btn:hover{
+    background-color: rgb(48, 252, 184);
+}
+#search-btn:active{
+    height: 22px;
+    width: 22px;   
+ }
+}
